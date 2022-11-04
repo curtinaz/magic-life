@@ -1,0 +1,46 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.player {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player1 {
+    transform: rotate(180deg);
+}
+
+.playerControl {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 8vh;
+}
+
+.playerLife {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 15vh;
+    margin: 0 35px;
+    width: 40%;
+    letter-spacing: 8px;
+}
+
+#player1 {
+    background-color: rgb(108, 108, 235);
+}
+
+#player2 {
+    background-color: rgb(175, 95, 95);
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(62, 145, 160);
+    }
+}
